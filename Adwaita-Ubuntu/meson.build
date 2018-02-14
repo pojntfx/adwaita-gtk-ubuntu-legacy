@@ -1,4 +1,4 @@
-communitheme_dir = join_paths(gtk_theme_dir, 'Communitheme')
+adwaitaubuntu_dir = join_paths(gtk_theme_dir, 'Adwaita-Ubuntu')
 
 # static asset files to copy
 index_sources = [
@@ -6,7 +6,7 @@ index_sources = [
 ]
 
 # Install index file
-install_data(index_sources, install_dir: communitheme_dir)
+install_data(index_sources, install_dir: adwaitaubuntu_dir)
 
 
 subdir('gtk-2.0')

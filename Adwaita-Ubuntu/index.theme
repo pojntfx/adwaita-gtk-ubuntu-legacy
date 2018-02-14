@@ -1,9 +1,9 @@
 [X-GNOME-Metatheme]
-Name=Communitheme
+Name=Adwaita-Ubuntu
 Type=X-GNOME-Metatheme
 Comment=Ubuntu community theme
 Encoding=UTF-8
-GtkTheme=Communitheme
+GtkTheme=Adwaita-Ubuntu
 IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24

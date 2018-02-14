@@ -1,4 +1,4 @@
-gtk3_dir = join_paths(communitheme_dir, 'gtk-3.0')
+gtk3_dir = join_paths(adwaitaubuntu_dir, 'gtk-3.0')
 
 # theme sources .scss files
 
