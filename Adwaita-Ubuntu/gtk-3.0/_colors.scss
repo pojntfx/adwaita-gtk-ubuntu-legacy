@@ -1,11 +1,10 @@
 // When color definition differs for dark and light variant
 // it gets @if ed depending on $variant
 
-
 $base_color: if($variant == 'light', #ffffff, #232729);
 $text_color: if($variant == 'light', black, white);
-$bg_color: if($variant=='light', #ffffff, #232729);
-$fg_color: if($variant=='light', #000000, #ffffff);
+$bg_color: if($variant == 'light', #e8e8e7, #33393b);
+$fg_color: if($variant == 'light', #2e3436, #eeeeec);
 
 $selected_fg_color: #ffffff;
 $selected_bg_color: if($variant=='light', #23A5D4, darken(#23A5D4, 20%));
@@ -17,7 +16,7 @@ $link_color: if($variant == 'light', darken($selected_bg_color, 10%), lighten($s
 $link_visited_color: if($variant == 'light', darken($selected_bg_color, 20%), lighten($selected_bg_color, 10%));
 $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
-$headerbar_color: if($variant=='light', #ffffff, #000000);
+$headerbar_color: if($variant == 'light', lighten($bg_color, 5%), darken($bg_color, 3%));
 $menu_color: if($variant == 'light', $base_color, mix($bg_color, $base_color, 20%));
 $popover_bg_color: $bg_color;
 $popover_hover_color: lighten($bg_color, 5%);
