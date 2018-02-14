@@ -4,11 +4,11 @@
 
 $base_color: if($variant == 'light', #ffffff, #232729);
 $text_color: if($variant == 'light', black, white);
-$bg_color: if($variant == 'light', #e8e8e7, #33393b);
-$fg_color: if($variant == 'light', #2e3436, #eeeeec);
+$bg_color: if($variant=='light', #ffffff, #232729);
+$fg_color: if($variant=='light', #000000, #ffffff);
 
 $selected_fg_color: #ffffff;
-$selected_bg_color: if($variant == 'light', #4a90d9, darken(#4a90d9, 20%));
+$selected_bg_color: if($variant=='light', #23A5D4, darken(#23A5D4, 20%));
 $selected_borders_color: if($variant== 'light', darken($selected_bg_color, 30%), darken($selected_bg_color, 20%));
 $borders_color: if($variant == 'light', darken($bg_color, 20%), darken($bg_color, 10%));
 $alt_borders_color: if($variant == 'light', darken($bg_color, 35%), darken($bg_color, 17%));
@@ -17,7 +17,7 @@ $link_color: if($variant == 'light', darken($selected_bg_color, 10%), lighten($s
 $link_visited_color: if($variant == 'light', darken($selected_bg_color, 20%), lighten($selected_bg_color, 10%));
 $top_hilight: $borders_edge;
 $dark_fill: mix($borders_color, $bg_color, 50%);
-$headerbar_color: if($variant == 'light', lighten($bg_color, 5%), darken($bg_color, 3%));
+$headerbar_color: if($variant=='light', #ffffff, #000000);
 $menu_color: if($variant == 'light', $base_color, mix($bg_color, $base_color, 20%));
 $popover_bg_color: $bg_color;
 $popover_hover_color: lighten($bg_color, 5%);
@@ -27,10 +27,10 @@ $scrollbar_slider_color: mix($fg_color, $bg_color, 60%);
 $scrollbar_slider_hover_color: mix($fg_color, $bg_color, 80%);
 $scrollbar_slider_active_color: if($variant=='light', darken($selected_bg_color, 10%), lighten($selected_bg_color, 10%));
 
-$warning_color: #f57900;
-$error_color: #cc0000;
-$success_color: if($variant == 'light', #73d216, darken(#73d216, 10%));
-$destructive_color: if($variant == 'light', #ef2929, darken(#ef2929, 10%));
+$warning_color: #e95420;
+$error_color: #c7162B;
+$success_color: if($variant=='light', #0e8420, darken(#0e8420, 10%));
+$destructive_color: if($variant=='light', #c7162B, darken(#c7162B, 10%));
 
 $osd_fg_color: #eeeeec;
 $osd_text_color: white;
