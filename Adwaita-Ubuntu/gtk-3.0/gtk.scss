@@ -10,3 +10,6 @@ $variant: 'light';
 @import 'drawing';
 @import 'common';
 @import 'colors-public';
+
+// This will be used as the "Darker" variant until the full variants will be created
+@import 'custom';
