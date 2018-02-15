@@ -66,3 +66,68 @@ $warning_color: #e95420;
 $error_color: #c7162B;
 $success_color: if($variant=='light', #0e8420, darken(#0e8420, 10%));
 $destructive_color: if($variant=='light', #c7162B, darken(#c7162B, 10%));
+
+/* "DARKER" VERSION */
+// Headerbar styling
+// Use the dark color
+$headerbar_color: if($variant=='light', #1C1F21, #1C1F21);
+
+headerbar {
+  // Remove the white border from the top
+  box-shadow: 0 0;
+}
+
+headerbar * {
+  // Fix the text colors
+  color: $base_color;
+  // Remove the dropshadows from buttons and window controls
+  -gtk-icon-shadow: none;
+}
+
+// Make the UI completely white
+$bg_color: if($variant=='light', #ffffff, #33393b);
+
+// Make the divider more neutral
+separator.vertical {
+  background-color: #B6B6B3;
+}
+
+// Remove the divider from the headerbar
+headerbar box seperator {
+  background-color: red;
+}
+
+// Style the buttons in the headerbar like in Adwaita-dark
+headerbar button {
+  background-image: linear-gradient(to bottom, #2e3436, #2a2e30 60%, #25292b);
+  border-color: #202425;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.05);
+}
+
+headerbar button:checked {
+  color: #eeeeec;
+  outline-color: rgba(238, 238, 236, 0.3);
+  border-color: #1b1f20;
+  background-image: image(#25292b);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+}
+
+headerbar button:hover {
+    color: #eeeeec;
+    outline-color: rgba(238, 238, 236, 0.3);
+    border-color: #1b1f20;
+    border-bottom-color: #0b0c0c;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.779451);
+    -gtk-icon-shadow: 0 -1px rgba(0, 0, 0, 0.779451);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.05);
+    background-image: linear-gradient(to bottom, #353c3e, #2e3436 60%, #2a2e30);
+    -gtk-icon-effect: highlight;
+}
+
+headerbar button:disabled {
+  border-color: #202425;
+  background-image: image(#2d3234);
+  text-shadow: none;
+  -gtk-icon-shadow: none;
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0);
+}

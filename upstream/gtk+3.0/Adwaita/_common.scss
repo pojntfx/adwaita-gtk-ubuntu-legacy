@@ -810,7 +810,7 @@ button {
   &.font,
   &.file { separator { background-color: transparent; }}
 
-  &.font { > box > box > label { font-weight: bold; }}
+  &.font { > box > box > label { font-weight: regular; }}
 
   // inline-toolbar buttons
   .inline-toolbar &, .inline-toolbar &:backdrop {
@@ -1455,7 +1455,7 @@ headerbar {
   .title {
     padding-left: 12px;
     padding-right: 12px;
-    font-weight: bold;
+    font-weight: regular;
   }
 
   .subtitle {
@@ -1903,7 +1903,7 @@ treeview.view {
 
       color: $_column_header_color;
       background-color: $base_color;
-      font-weight: bold;
+      font-weight: regular;
       text-shadow: none;
       box-shadow: none;
 
@@ -2291,7 +2291,7 @@ notebook {
       outline-offset: -5px;
 
       color: $insensitive_fg_color;
-      font-weight: bold;
+      font-weight: regular;
 
       border-width: 1px;         // for reorderable tabs
       border-color: transparent; //
@@ -2597,7 +2597,7 @@ treeview ~ scrollbar.vertical {
  * Switch *
  **********/
 switch {
-  font-weight: bold;
+  font-weight: regular;
   font-size: smaller;
   outline-offset: -4px;
 

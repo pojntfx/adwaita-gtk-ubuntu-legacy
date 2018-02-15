@@ -13,3 +13,5 @@ $variant: 'light';
 
 // This will be used as the "Darker" variant until the full variants will be created
 @import 'custom';
+// Hack to prevent missing variables
+@import 'colors';
