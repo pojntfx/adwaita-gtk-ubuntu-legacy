@@ -59,7 +59,12 @@ $backdrop_menu_color: if($variant=='light', $backdrop_base_color, mix($backdrop_
 Got to figure out how to change the vars from a different file without editing this one. */
 
 // Use Unity8 blue
+// Uncomment the line below to create a version with Unity8 Light Blue
 $selected_bg_color: if($variant=='light', #23A5D4, darken(#23A5D4, 20%));
+// Uncomment the line below to create a version with Unity8 Dark Blue
+// $selected_bg_color: if($variant=='light', #335280, darken(#335280, 20%));
+// Uncomment the line below to create a version with Unity7 Orange
+// $selected_bg_color: if($variant=='light', #E95420,#E95420);
 
 // Use Unity8 default colors
 $warning_color: #e95420;
