@@ -14,15 +14,7 @@
 
 ## What icon theme should be used?
 
-That depends on the variant you want to use. Unity8 versions work well with the stock Adwaita theme, but I will create probably create a version of the Adwaita icon theme that uses the folder icons of the theme variant. If you're using the orange version, the Suru icon theme works nicely.
-
-## What wallpapers?
-
-Ubuntu Community Hub user [nusi](https://community.ubuntu.com/u/nusi/summary) created two beautiful variants of the default Adwaita background, they can be found in ./wallpapers/ in this repo. They can be seen below.
-
-![Wallpaper (Orange))](./wallpapers/Adwaita-Day-Orange.jpg)
-
-![Wallpaper (Aubergine))](./wallpapers/Adwaita-Day-Aubergine.jpg)
+That depends on the variant you want to use. Unity8 versions work well with the stock Papirus-Adapta (See screenshots below) theme, but I will create probably create a version of the Adwaita icon theme that uses the folder icons of the theme variant. If you're using the orange version, the Suru icon theme works nicely.
 
 ## How do I use the different variants?
 
@@ -35,25 +27,33 @@ Ubuntu Community Hub user [nusi](https://community.ubuntu.com/u/nusi/summary) cr
 
 > May be outdated. Check out the [Ubuntu Community Hub Thread](https://community.ubuntu.com/t/adwaita-theme-with-unity8-colours-and-other-variants/4041) for mockups etc.
 
-### GTK3 Widget Factory (Light Version with the light blue Unity8 accent as the primary color)
+### GTK3 Widget Factory (Light/Dark Version with the light blue Unity8 accent as the primary color)
 
-![GTK Widget Factory (Light Version with the light blue Unity8 accent as the primary color)](./screenshots/gtk3-widget-factory-light-lightblue.png)
+![GTK Widget Factory (Light Version with the light blue Unity8 accent as the primary color)](./screenshots/lightblue-light-widgetfactory.png)
 
-### GTK3 Widget Factory (Dark Version with the light blue Unity8 accent as the primary color)
+![GTK Widget Factory (Dark Version with the light blue Unity8 accent as the primary color)](./screenshots/lightblue-dark-widgetfactory.png)
 
-![GTK Widget Factory (Dark Version with the light blue Unity8 accent as the primary color)](./screenshots/gtk3-widget-factory-dark-lightblue.png)
+### GTK3 Widget Factory (Ambiance for comparison)
 
-### GTK3 Widget Factory (Ambiance for comparision)
+![GTK Widget Factory (Ambiance for comparison)](./screenshots/ambiance-widget-factory-light.png)
 
-![GTK Widget Factory (Ambiance for comparision)](./screenshots/gtk3-widget-factory-light-ambiance.png)
+### Nautilus (Light/Dark Version with the light blue Unity8 accent as the primary color)
 
-### Settings (Dark Version with the light blue Unity8 accent as the primary color)
+![Nautilus (Light Version with the light blue Unity8 accent as the primary color)](./screenshots/lightblue-light-nautilus.png)
 
-![GTK Widget Factory (Dark Version with the light blue Unity8 accent as the primary color)](./screenshots/settings-dark-lightblue.png)
+![Nautilus (Dark Version with the light blue Unity8 accent as the primary color)](./screenshots/lightblue-dark-nautilus.png)
 
-### Settings (Light Version with the light blue Unity8 accent as the primary color)
+### GTK3 Widget Factory (Light/Dark Version with the orange Unity7 accent as the primary color)
 
-![GTK Widget Factory (Light Version with the light blue Unity8 accent as the primary color)](./screenshots/settings-light-lightblue.png)
+![GTK Widget Factory (Light Version with the orange Unity7  accent as the primary color)](./screenshots/orange-light-widgetfactory.png)
+
+![GTK Widget Factory (Dark Version with the orange Unity7  accent as the primary color)](./screenshots/orange-dark-widgetfactory.png)
+
+### Nautilus (Light/Dark Version with the orange Unity7 accent as the primary color)
+
+![Nautilus (Light Version with the orange Unity7  accent as the primary color)](./screenshots/orange-light-nautilus.png)
+
+![Nautilus (Dark Version with the orange Unity7  accent as the primary color)](./screenshots/orange-dark-nautilus.png)
 
 ## Build Setup
 
@@ -72,3 +72,11 @@ sudo ninja install
 ```
 
 > After running the above in the build folder, press <kbd>Alt + F2</kbd>, then type 'rt', then press <kbd>Enter</kbd> to apply the theme. Use GNOME Tweaks to apply the theme and the GTK Inspector to switch between the light and dark variants of it. It also enables you to quickly test out changes.
+
+## What wallpapers?
+
+Ubuntu Community Hub user [nusi](https://community.ubuntu.com/u/nusi/summary) created two beautiful variants of the default Adwaita background, they can be found in ./wallpapers/ in this repo. They can be seen below.
+
+![Wallpaper (Orange))](./wallpapers/Adwaita-Day-Orange.jpg)
+
+![Wallpaper (Aubergine))](./wallpapers/Adwaita-Day-Aubergine.jpg)
