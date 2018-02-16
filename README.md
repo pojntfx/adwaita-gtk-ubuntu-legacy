@@ -12,6 +12,25 @@
 
 > Will be added soon. Until then, using the upstream Adwaita one with the Ubuntu typeface should be fine.
 
+## What icon theme should be used?
+
+That depends on the variant you want to use. Unity8 versions work well with the stock Adwaita theme, but I will create probably create a version of the Adwaita icon theme that uses the folder icons of the theme variant. If you're using the orange version, the Suru icon theme works nicely.
+
+## What wallpapers?
+
+Ubuntu Community Hub user [nusi](https://community.ubuntu.com/u/nusi/summary) created two beautiful variants of the default Adwaita background, they can be found in ./wallpapers/ in this repo. They can be seen below.
+
+![Wallpaper (Orange))](./wallpapers/Adwaita-Day-Orange.jpg)
+
+![Wallpaper (Aubergine))](./wallpapers/Adwaita-Day-Aubergine.jpg)
+
+## How do I use the different variants?
+
+> Uncomment the line with the variant you want in the ./Adwaita-Ubuntu/gtk-3.0/_colors.scss file. Available are:
+- Unity8 light blue selection color (#23A5D4)
+- Unity8 dark blue selection color (#335280)
+- Unity7 orange selection color (#E95420)
+
 ## Screenshots
 
 > May be outdated. Check out the [Ubuntu Community Hub Thread](https://community.ubuntu.com/t/adwaita-theme-with-unity8-colours-and-other-variants/4041) for mockups etc.
