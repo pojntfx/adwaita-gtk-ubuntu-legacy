@@ -11,6 +11,7 @@
 ## Where is the shell theme?
 
 > Will be added soon. Until then, using the upstream Adwaita one with the Ubuntu typeface should be fine.
+> If you are using Communitheme and dash to dock, follow the instructions in ./addons/gnome-and-dash-to-dock.css to use a beta of it!
 
 ## What icon theme should be used?
 
