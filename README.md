@@ -15,7 +15,7 @@
 
 ## What icon theme should be used?
 
-That depends on the variant you want to use. Unity8 versions work well with the stock Papirus-Adapta (See screenshots below) theme, but I will create probably create a version of the Adwaita icon theme that uses the folder icons of the theme variant. If you're using the orange version, the Suru icon theme works nicely.
+That depends on the variant you want to use. Unity8 versions work well with the stock Papirus-Adapta (See screenshots below) theme, but I will create probably create a version of the Adwaita icon theme that uses the folder icons of the theme variant. If you're using the orange version, the Suru icon theme works nicely. A suru icon theme with Unity8 folder icon colors is currently also [being worked on](https://github.com/pojntfx/suru-icon-theme).
 
 ## How do I use the different variants?
 
