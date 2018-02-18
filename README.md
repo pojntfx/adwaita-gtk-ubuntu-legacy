@@ -4,8 +4,7 @@
 
 ## What has been changed from upstream Adwaita?
 
-- The colors used in [Unity8](https://docs.google.com/presentation/d/1FtHFW67ycl6uvxZqKIZwyinVyOuV9NxXDuJv1SwQ70k/edit#slide=id.g13b3c671fc_1_0) have been applied to buttons, the headerbar, backgrounds (they are grey in upstream Adwaita) etc.
-- Font weight has been reduced in the titles
+- The colors used in [Unity8](https://docs.google.com/presentation/d/1FtHFW67ycl6uvxZqKIZwyinVyOuV9NxXDuJv1SwQ70k/edit#slide=id.g13b3c671fc_1_0) have been applied to buttons and other elements. Nothing more than that.
 > The goal is to keep this is as maintainable as possible, so no big edits here. The first variant uses the Unity8 light blue color as the main highlight color.
 
 ## Where is the shell theme?
