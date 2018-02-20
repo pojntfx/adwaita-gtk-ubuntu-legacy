@@ -1,3 +1,5 @@
+# We are currently moving to [a new repository](https://github.com/pojntfx/adwaita-gtk-ubuntu)!
+
 # Ubuntu LTS 18.04 Unofficial Adwaita GTK Theme Evaluation
 
 > To test out whether it may be a better idea to use Adwaita instead of Ambiance in LTS if Communitheme won't be done in time. Adwaita has a more modern codebase and, in my experience, is prefered over the now 8-year-old Ambiance. See the Screenshots below for a comparison. This uses the build system of an early version of the [Ubuntu GTK Communitheme](https://github.com/Ubuntu/gtk-communitheme).
