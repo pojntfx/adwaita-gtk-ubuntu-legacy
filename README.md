@@ -1,4 +1,4 @@
-# We are currently moving to [a new repository](https://github.com/pojntfx/adwaita-gtk-ubuntu)!
+# We are have moved to [a new repository](https://github.com/pojntfx/adwaita-gtk-ubuntu)!
 
 # Ubuntu LTS 18.04 Unofficial Adwaita GTK Theme Evaluation
 
